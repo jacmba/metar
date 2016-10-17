@@ -1,0 +1,11 @@
+{
+  "curly": true,
+  "eqeqeq": true,
+  "esversion": 6,
+  "forin": true,
+  "maxparams": 3,
+  "strict": true,
+  "undef": true,
+  "unused": true,
+  "node": true
+}

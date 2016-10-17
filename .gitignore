@@ -5,3 +5,6 @@ node_modules
 *.log
 *.log.*
 *-log.*
+
+# Cache files
+cache/*
