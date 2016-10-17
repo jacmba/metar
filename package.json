@@ -1,0 +1,30 @@
+{
+  "name": "metar",
+  "version": "1.0.0",
+  "description": "Aviation METAR API microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodeunit ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacmba/metar.git"
+  },
+  "keywords": [
+    "api",
+    "microservice",
+    "aviation",
+    "weather",
+    "metar"
+  ],
+  "author": "Jacinto Mba Cantero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacmba/metar/issues"
+  },
+  "homepage": "https://github.com/jacmba/metar#readme",
+  "dependencies": {
+    "request": "2.75.0"
+  }
+}
