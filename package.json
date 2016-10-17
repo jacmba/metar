@@ -19,7 +19,7 @@
     "metar"
   ],
   "author": "Jacinto Mba Cantero",
-  "license": "MIT",
+  "license": "WTFPL",
   "bugs": {
     "url": "https://github.com/jacmba/metar/issues"
   },
