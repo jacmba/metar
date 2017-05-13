@@ -8,3 +8,8 @@ node_modules
 
 # Cache files
 cache/*
+/.vs/Metar/v14
+/src/typings
+/src/typings.json
+*.njsproj
+*.sln
