@@ -8,6 +8,7 @@ node_modules
 
 #Ide files
 settings.json
+.vscode
 
 # Cache files
 cache/*
