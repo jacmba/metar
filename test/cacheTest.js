@@ -19,7 +19,7 @@ describe('Cache tests', () => {
     if(fs.existsSync(TESTDIR)) {
       let files = fs.readdirSync(TESTDIR);
       files.forEach(file => {
-        fs.unlink(`${TESTDIR}/${file}`);
+        fs.unlinkSync(`${TESTDIR}/${file}`);
       });
       fs.rmdirSync(TESTDIR);
     }
