@@ -13,3 +13,5 @@ cache/*
 /src/typings.json
 *.njsproj
 *.sln
+/bin
+/obj/Debug
