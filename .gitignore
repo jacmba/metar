@@ -6,6 +6,9 @@ node_modules
 *.log.*
 *-log.*
 
+#Ide files
+settings.json
+
 # Cache files
 cache/*
 /.vs/Metar/v14
