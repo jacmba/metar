@@ -4,4 +4,12 @@ node_js:
 
 before_script:
   - npm install -g mocha
+
+before_install:
   - npm install
+
+# safelist
+branches:
+  only:
+  - develop
+  - master
