@@ -5,7 +5,7 @@ let Metar = require('./metar');
 
 let app = Express();
 let metar = new Metar();
-let port = process.env.METAR_PORT || 3000;
+let port = process.env.PORT || 3000;
 
 let ctrl = metar.getRoutes();
 
