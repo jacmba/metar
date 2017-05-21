@@ -1,5 +1,8 @@
 'use strict';
 
+/**
+ * @Class Metar module controller
+ */
 class MetarRoutes {
   //----------------------------------------------------------------------------
   /**
