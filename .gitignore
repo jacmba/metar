@@ -20,3 +20,5 @@ cache/*
 *.sln
 /bin
 /obj/Debug
+
+BUILD_TAG
