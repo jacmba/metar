@@ -24,10 +24,10 @@ class MetarRoutes {
   getMetar(req, res) {
     this._model.getMetar(req.params.icao)
     .then(result => {
-      return res.json(result);
+      return res.send(result);
     })
     .catch(err => {
-      return res.status(404).json(err);
+      return res.status(404).send(err);
     });
   }
 }
