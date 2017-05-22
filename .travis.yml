@@ -26,7 +26,7 @@ after_success:
   docker login -u="$DOCKER_USER" -p="$DOCKER_PASS";
   docker push "$DOCKER_IMAGE":dev;
   fi
-- scripts/checkTag "$TRAVIS_TAG"
+- scripts/checkTag.js "$TRAVIS_TAG"
 - exports BUILD_TAG=$(cat BUILD_TAG)
 - rm BUILD_TAG
 - if [ "$TRAVIS_BRANCH" == "master" ]; then
