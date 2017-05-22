@@ -27,7 +27,7 @@ after_success:
   docker push "$DOCKER_IMAGE":dev;
   fi
 - node scripts/checkTag.js "$TRAVIS_TAG"
-- exports BUILD_TAG=$(cat BUILD_TAG)
+- export BUILD_TAG=$(cat BUILD_TAG)
 - rm BUILD_TAG
 - if [ "$TRAVIS_BRANCH" == "master" ]; then
   docker build -t "$DOCKER_IMAGE":"$BUILD_TAG" .;
