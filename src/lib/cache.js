@@ -64,7 +64,7 @@ class Cache {
           return reject(err);
         }
 
-        let age = data.ttl - new Date().getTime();
+        let age = data.timestamp - new Date().getTime();
         if(age > this._ttl) {
           fs.unlink(filename);
           return resolve(null);
