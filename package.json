@@ -1,6 +1,6 @@
 {
   "name": "metar",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Aviation METAR API microservice",
   "main": "index.js",
   "scripts": {
