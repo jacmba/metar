@@ -64,13 +64,13 @@ class Cache {
           return reject(err);
         }
 
-        let age = new Date().getTime() - data.timestamp;
+        let dataObj = JSON.parse(data);
+
+        let age = new Date().getTime() - dataObj.timestamp;
         if(age > this._ttl) {
           fs.unlink(filename);
           return resolve(null);
         }
-
-        let dataObj = JSON.parse(data);
 
         return resolve(dataObj.data);
       });
