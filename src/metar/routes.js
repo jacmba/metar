@@ -22,11 +22,15 @@ class MetarRoutes {
    * @param {object} res - Server response
    */
   getMetar(req, res) {
-    this._model.getMetar(req.params.icao)
+    let icao = req.params.icao;
+    console.log(`Requested metar for ${icao}`);
+    this._model.getMetar(icao)
     .then(result => {
+      console.log(`Returning "${result}"`);
       return res.send(result);
     })
     .catch(err => {
+      console.error(err);
       return res.status(404).send(err);
     });
   }
