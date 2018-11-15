@@ -1,7 +1,7 @@
 'use strict';
 
 const PATTERN =
-  /<!-- Data starts here -->\n(.*)<br.*\n<!-- Data ends here -->/mi;
+  /<!-- Data starts here -->\n<code>(.*)<\/code>/mi;
 
 class Metar {
   //----------------------------------------------------------------------------
