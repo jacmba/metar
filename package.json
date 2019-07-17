@@ -26,10 +26,10 @@
   "homepage": "https://github.com/jacmba/metar#readme",
   "dependencies": {
     "assert": "1.4.1",
-    "express": "4.15.3",
-    "request": "2.75.0"
+    "express": "4.17.1",
+    "request": "2.88.0"
   },
   "devDependencies": {
-    "mocha": "3.4.1"
+    "mocha": "6.1.4"
   }
 }
