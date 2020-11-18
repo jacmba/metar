@@ -6,5 +6,19 @@ node_modules
 *.log.*
 *-log.*
 
+#Ide files
+settings.json
+.vscode
+
 # Cache files
+test/cacheTests
 cache/*
+/.vs/Metar/v14
+/src/typings
+/src/typings.json
+*.njsproj
+*.sln
+/bin
+/obj/Debug
+
+BUILD_TAG
